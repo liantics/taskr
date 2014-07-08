@@ -1,0 +1,20 @@
+Notes 7-8-2014
+
+Create a to-do list app, named taskr
+
+You can run multiple rake tasks serially from the same liine. Ex:
+
+rake db:create db:migrate
+
+**REMEMBER the colon (:) when generating a scaffold: 
+	rails g monban:scaffold
+
+Put the site-wide before action in the application_controller file
+
+----
+vim tips:
+
+q: gives you an editable history of the commands you've typed, so you can go up to a past command, edit it, hit escape, and hit enter. This will run the fixed command.
+
+When you type : you can scroll up and down through past commands with the arrows. 
+----
